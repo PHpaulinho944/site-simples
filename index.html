@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Extensão</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        .carousel {
+            height: 350px;
+            overflow: hidden;
+        }
+
+        .carousel-item img {
+            object-fit: cover;
+            object-position: 0 26%;
+            height: 350px;
+        }
+
+        img {
+            height: 250px;
+        }
+
+        .imagem-1 {
+            object-fit: cover;
+            object-position: 11% 20%;
+        }
+    </style>
+</head>
+
+<body class="bg-dark">
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container py-4">
+        <div class="row ">
+
+
+            <!-- CARD 1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card mb-4 shadow h-100 ">
+                    <img src="imagem/foto04.png" class="card-img-top " alt="Banco de alimentos">
+
+                    <div class="card-body ">
+                        <div class="h-100 d-flex flex-column gap-1 justify-content-around">
+                            <h5 class="card-title">Banco de Alimentos</h5>
+
+                            <p class="card-text">
+                                Levamos esperança para moradores de rua com doações de alimentos
+                            </p>
+
+                            <p>
+                                <i class="bi bi-geo-alt"></i>
+                                AV. Indubel 600 - Guarulhos - São Paulo
+                            </p>
+
+                            <p>
+                                <i class="bi bi-telephone"></i>
+                                (11) 2171-1121
+                            </p>
+
+                            <p>
+                                <i class="bi bi-clock"></i>
+                                Seg a Sex: 09:00 às 18:00 | Sab: 08:00 às 12:00
+                            </p>
+
+                            <span class="badge rounded-pill text-bg-secondary">
+                                Agasalhos
+                            </span>
+
+                            <span class="badge rounded-pill text-bg-secondary">
+                                Cobertores
+                            </span>
+
+                            <div class="text-center mt-3">
+                                <a href="https://www.cromart.com.br/home" target="_blank" class="btn btn-primary w-100">
+                                    Doe por aqui
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card mb-4 shadow h-100">
+                    <img src="imagem/foto01.webp" class="card-img-top imagem-1" alt="ONG Mãos que Transformam">
+
+                    <div class="card-body ">
+                        <div class="h-100 d-flex flex-column gap-1 justify-content-around">
+
+                            <h5 class="card-title">ONG Mãos que Transformam</h5>
+
+                            <p class="card-text">
+                                Combate à fome e ao desperdício
+                            </p>
+
+                            <p>
+                                <i class="bi bi-geo-alt"></i>
+                                Rua Atibaia 218 - Perdizes - São Paulo
+                            </p>
+
+                            <p>
+                                <i class="bi bi-telephone"></i>
+                                (11) 2171-1121
+                            </p>
+
+                            <p>
+                                <i class="bi bi-clock"></i>
+                                Seg a Sab: 09:00 às 18:00
+                            </p>
+
+                            <span class="badge rounded-pill text-bg-secondary">
+                                Agasalhos
+                            </span>
+
+                            <span class="badge rounded-pill text-bg-secondary">
+                                Cobertores
+                            </span>
+
+                            <div class="text-center mt-3">
+                                <a href="https://bancodealimentos.org.br" target="_blank" class="btn btn-primary w-100">
+                                    Doe por aqui
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card mb-4 shadow h-100">
+                    <img src="imagem/foto03.png" class="card-img-top" alt="ONG Um Ato de Amor">
+
+                    <div class="card-body ">
+                        <div class="h-100 d-flex flex-column gap-1 justify-content-around">
+
+                            <h5 class="card-title">ONG Um Ato de Amor</h5>
+
+                            <p class="card-text">
+                                Centro de Doações
+                            </p>
+
+                            <p>
+                                <i class="bi bi-geo-alt"></i>
+                                Rua Padre Mauricio 242 - Vila Diva - São Paulo
+                            </p>
+
+                            <p>
+                                <i class="bi bi-telephone"></i>
+                                (11) 3019-0100
+                            </p>
+
+                            <p>
+                                <i class="bi bi-clock"></i>
+                                Seg a Sex: 08:00 às 20:30 | Sab: 09:00 às 11:30
+                            </p>
+
+                            <span class="badge rounded-pill text-bg-secondary">
+                                Agasalhos
+                            </span>
+
+                            <span class="badge rounded-pill text-bg-secondary">
+                                Cobertores
+                            </span>
+
+                            <div class="text-center mt-3">
+                                <a href="https://www.instagram.com/amigosdobem/" target="_blank" class="btn btn-primary w-100">
+                                    Doe por aqui
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

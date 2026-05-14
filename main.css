@@ -1,0 +1,62 @@
+body {
+    font-family: monospace;
+}
+
+ul {
+    font-family: helvetica;
+}
+
+li {
+    list-style: square;
+}
+
+#msg {
+    font-family: monospace;
+}
+
+.light-theme {
+    color: #000000;
+    background-color: #00ff00;
+}
+
+.cor-texto {
+    color: red;
+}
+
+.cor-texto:hover {
+    background-color: blue;
+}
+
+.btn {
+    color: var(--btnfontcolor);
+    background-color: var(--btnBg);
+}
+
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: nome;
+    color: var(--btnfontcolor);
+    background-color: var(--btnBg);
+
+}
+
+.btn:focus {
+    outline-style: nome;
+}
+.light-theme{
+--bg: var(--green);
+--fontcolor: var(--black);
+--btnBg: var(--black);
+--btnfontcolor: var(--white);
+}
+.Dark-theme {
+--bg: var(--black);
+--fontcolor: var(--green);
+--btnBg: var(--white);
+--btnfontcolor: var(--black);
+}
